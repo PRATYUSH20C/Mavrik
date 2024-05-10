@@ -1,7 +1,7 @@
 import os
 import openai
 from config import apikey
-
+#this will generate Ai response
 openai.api_key = apikey
 
 response = openai.Completion.create(
