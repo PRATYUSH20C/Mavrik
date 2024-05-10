@@ -39,11 +39,13 @@ def ai(prompt):
         frequency_penalty=0,
         presence_penalty=0
     )
+    
     print(response['choices'][0]['text'])
     text += response['choices'][0]['text']
     if not os.path.exists("Openai"):
         os.mkdir("Openai")
 
+    
     with open(f"Openai/{prompt[1:]}.txt","w") as f:
         f.write(text)
 
