@@ -1,6 +1,7 @@
 # Mavrik
 Desktop virtual assistance
 
+
 Creating a virtual assistant using Python, OpenAI, and speech recognition technology can be an exciting and rewarding project. By combining these tools, you can develop a system capable of understanding spoken commands and providing appropriate responses or actions.
 
 Here's a brief overview of how I started building such a virtual assistant:
